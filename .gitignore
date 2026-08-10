@@ -1,0 +1,41 @@
+# ===== Secrets / environment variables =====
+.env
+*.env
+.env.local
+# Keep .env.example tracked (it has no real secrets)
+!.env.example
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== IDE / Editor =====
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Tool / experiment outputs (regenerable) =====
+# Filtered candidate folders are produced by Stage 1; uncomment to ignore them.
+# Filtered_*/
