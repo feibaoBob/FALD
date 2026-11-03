@@ -121,7 +121,7 @@ FALD/
 ### Setup
 
 ```bash
-git clone <your-github-url>/FALD.git
+git clone https://github.com/feibaoBob/FALD.git
 cd FALD
 pip install -r requirements.txt
 ```
